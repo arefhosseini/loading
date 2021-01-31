@@ -2,7 +2,6 @@
 
 A flutter widget of loading progress Indicator. Easy to use, easy to extend
 
-![art](https://wx3.sinaimg.cn/mw690/7699d26bgy1g3nxfi6q1fg20h20zqn8k.gif)
 
 ## Installation
 
@@ -11,7 +10,7 @@ Add dependency to pubspec.yaml
 ```
 dependencies:
   ...
-  loading: ^1.0.1
+  loading: ^1.0.2
 ```
 Run in your terminal
 
@@ -27,7 +26,7 @@ flutter packages get
       body: Container(
         color: Colors.lightBlue,
         child: Center(
-          child: Loading(indicator: BallPulseIndicator(), size: 100.0),
+          child: Loading(indicator: BallPulseIndicator(), size: 100.0,color: Colors.pink),
         ),
       ),
 ```
